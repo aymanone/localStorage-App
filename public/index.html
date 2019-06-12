@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="../style/index.css">
+
+<title>note taker</title>
+<meta charset="utf-8">
+</head>
+<body>
+    
+    <p><h1>welcome to note taker</h1></p>
+    <main key="1">
+    <div>
+        <button onclick="clearNotes()">clear the notes</button>
+    </div>
+    <div>
+    
+    <form class="note" >
+    <label>note title</label>
+    <input type="text" placeholder="note title" required>
+    <label>note description</label>
+    <textarea rows="5" columns="5" maxlength="105" placeholder="note description"></textarea>
+        
+    <input type="submit" value="create note" onClick="addItem(this,event)">
+    
+    </form>
+    </div>
+    <div id="notes">
+    
+    
+    </div>
+    </main>
+    <script type="text/javascript" src="js/index.js" ></script>
+
+</body>
+</html>

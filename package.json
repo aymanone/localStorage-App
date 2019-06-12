@@ -1,0 +1,15 @@
+{
+  "name": "note_taker",
+  "version": "1.0.0",
+  "description": "build project for local storage",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon App"
+  },
+  "keywords": [
+    "local",
+    "storage"
+  ],
+  "author": "ayman",
+  "license": "ISC"
+}
